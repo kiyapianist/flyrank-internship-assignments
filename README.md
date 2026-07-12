@@ -8,6 +8,7 @@ A public index for my Flyrank internship assignments.
 |---|------------|------------|-------|
 | 1 | Backend JSON Server | [backend-json-server](https://github.com/kiyapianist/backend-json-server) | Tiny Node.js server with two JSON endpoints. |
 | 2 | A2 Postgres Docker | [a2-postgres-docker](https://github.com/kiyapianist/a2-postgres-docker) | Node service connected to Postgres with Docker Compose and repository layering. |
+| 3 | A5 AI Feature | [a5-ai-feature](https://github.com/kiyapianist/a5-ai-feature) | Schema-valid AI summarization endpoint with retries, timeout, provider seam, cache, and cost logging. |
 
 ## How I Organize This
 
