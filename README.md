@@ -10,6 +10,7 @@ A public index for my Flyrank internship assignments.
 | 2 | A2 Postgres Docker | [a2-postgres-docker](https://github.com/kiyapianist/a2-postgres-docker) | Node service connected to Postgres with Docker Compose and repository layering. |
 | 3 | A5 AI Feature | [a5-ai-feature](https://github.com/kiyapianist/a5-ai-feature) | Schema-valid AI summarization endpoint with retries, timeout, provider seam, cache, and cost logging. |
 | 4 | Node.js and Express Presentation | [node-express-intro-presentation](https://github.com/kiyapianist/node-express-intro-presentation) | Slide deck introducing backend development with Node.js and Express. |
+| 5 | A7 Report Jobs | [a7-report-jobs](https://github.com/kiyapianist/a7-report-jobs) | SQL aggregation, background report jobs, PDF artifact storage, and download links. |
 
 ## How I Organize This
 
