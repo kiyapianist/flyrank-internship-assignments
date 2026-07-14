@@ -13,6 +13,12 @@ A public index for my Flyrank internship assignments.
 | 5 | A7 Report Jobs | [a7-report-jobs](https://github.com/kiyapianist/a7-report-jobs) | SQL aggregation, background report jobs, PDF artifact storage, and download links. |
 | 6 | A8 Ethical Scraper | [a8-ethical-scraper](https://github.com/kiyapianist/a8-ethical-scraper) | Practice-site scraper with robots check, rate limiting, clear User-Agent, and structured JSON/CSV outputs. |
 
+## Identity Kit
+
+- [Identity kit HTML](identity-kit/identity-kit.html)
+- [Logo wordmark SVG](identity-kit/logo-wordmark.svg)
+- [Favicon SVG](identity-kit/favicon.svg)
+
 ## How I Organize This
 
 Each assignment can have its own repository. This hub keeps the links in one place so they are easy to share or add to a website.

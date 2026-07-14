@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>KIA — Identity Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --main:#2D4A6D;
+    --accent:#4E92B8;
+    --text:#14171A;
+    --bg:#F7F8FA;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    padding:56px 24px 80px;
+  }
+  .sheet{
+    max-width:820px;
+    margin:0 auto;
+  }
+  .kicker{
+    font-family:'Inter',sans-serif;
+    font-size:13px;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--accent);
+    font-weight:600;
+    margin:0 0 8px;
+  }
+  h1{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:40px;
+    font-weight:600;
+    margin:0 0 40px;
+    letter-spacing:-0.01em;
+  }
+  h2{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:15px;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.06em;
+    color:var(--main);
+    margin:0 0 16px;
+    padding-bottom:10px;
+    border-bottom:1px solid #DDE3E9;
+  }
+  section{
+    margin-bottom:40px;
+  }
+  /* type section */
+  .type-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    padding:18px 0;
+    border-bottom:1px solid #E8ECEF;
+  }
+  .type-row:last-child{border-bottom:none;}
+  .type-name{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:600;
+    font-size:15px;
+  }
+  .type-role{
+    font-size:13px;
+    color:#5B6572;
+  }
+  .type-sample-heading{
+    font-family:'Space Grotesk',sans-serif;
+    font-size:26px;
+    font-weight:600;
+  }
+  .type-sample-body{
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    color:#3A414A;
+  }
+  /* palette */
+  .palette{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:16px;
+  }
+  .swatch{
+    border-radius:10px;
+    overflow:hidden;
+    border:1px solid #E8ECEF;
+  }
+  .swatch .block{
+    height:88px;
+  }
+  .swatch .label{
+    padding:10px 12px;
+    background:#fff;
+  }
+  .swatch .name{
+    font-size:12px;
+    font-weight:600;
+    font-family:'Space Grotesk',sans-serif;
+  }
+  .swatch .hex{
+    font-size:12px;
+    color:#5B6572;
+    font-variant-numeric:tabular-nums;
+  }
+  /* logo */
+  .logo-row{
+    display:flex;
+    gap:32px;
+    align-items:center;
+    flex-wrap:wrap;
+  }
+  .logo-card{
+    background:#fff;
+    border:1px solid #E8ECEF;
+    border-radius:12px;
+    padding:28px 32px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .logo-card.dark{
+    background:var(--main);
+  }
+  .logo-caption{
+    font-size:12px;
+    color:#5B6572;
+    margin-top:8px;
+    text-align:center;
+  }
+  .logo-block{display:flex;flex-direction:column;align-items:center;}
+  /* style note */
+  .note{
+    background:#fff;
+    border:1px solid #E8ECEF;
+    border-left:4px solid var(--main);
+    border-radius:8px;
+    padding:20px 24px;
+    font-size:15px;
+    line-height:1.6;
+  }
+  .note strong{color:var(--main);}
+  footer{
+    margin-top:56px;
+    font-size:12px;
+    color:#8B93A0;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <p class="kicker">Identity Kit · Week 3</p>
+  <h1>KIA — Visual Identity</h1>
+
+  <section>
+    <h2>01 · Type</h2>
+    <div class="type-row">
+      <div>
+        <div class="type-name">Space Grotesk</div>
+        <div class="type-role">Heading — Google Fonts, free</div>
+      </div>
+      <div class="type-sample-heading">Building with judgment</div>
+    </div>
+    <div class="type-row">
+      <div>
+        <div class="type-name">Inter</div>
+        <div class="type-role">Body — Google Fonts, free</div>
+      </div>
+      <div class="type-sample-body">The frame stays quiet so the work is the loudest thing on the page.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>02 · Palette</h2>
+    <div class="palette">
+      <div class="swatch">
+        <div class="block" style="background:#2D4A6D;"></div>
+        <div class="label"><div class="name">Main</div><div class="hex">#2D4A6D</div></div>
+      </div>
+      <div class="swatch">
+        <div class="block" style="background:#4E92B8;"></div>
+        <div class="label"><div class="name">Accent</div><div class="hex">#4E92B8</div></div>
+      </div>
+      <div class="swatch">
+        <div class="block" style="background:#14171A;"></div>
+        <div class="label"><div class="name">Text (near-black)</div><div class="hex">#14171A</div></div>
+      </div>
+      <div class="swatch">
+        <div class="block" style="background:#F7F8FA;border-bottom:1px solid #E8ECEF;"></div>
+        <div class="label"><div class="name">Background (near-white)</div><div class="hex">#F7F8FA</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>03 · Logo / Favicon</h2>
+    <div class="logo-row">
+      <div class="logo-block">
+        <div class="logo-card">
+          <svg viewBox="0 0 360 100" width="200" xmlns="http://www.w3.org/2000/svg">
+            <text x="0" y="70" font-family="Space Grotesk, sans-serif" font-weight="600" font-size="64" fill="#14171A">KIA</text>
+            <circle cx="205" cy="30" r="7" fill="#4E92B8"/>
+          </svg>
+        </div>
+        <div class="logo-caption">Wordmark — for headers &amp; footers</div>
+      </div>
+      <div class="logo-block">
+        <div class="logo-card dark">
+          <svg viewBox="0 0 64 64" width="64" xmlns="http://www.w3.org/2000/svg">
+            <rect width="64" height="64" rx="14" fill="#2D4A6D"/>
+            <text x="32" y="43" font-family="Space Grotesk, sans-serif" font-weight="700" font-size="32" fill="#F7F8FA" text-anchor="middle">K</text>
+            <circle cx="49" cy="17" r="4.5" fill="#4E92B8"/>
+          </svg>
+        </div>
+        <div class="logo-caption">Favicon / monogram — 64×64</div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>04 · Style Note</h2>
+    <div class="note">
+      Fonts: <strong>Space Grotesk</strong> (headings) + <strong>Inter</strong> (body). Colors: <strong>#2D4A6D</strong> main, <strong>#4E92B8</strong> accent, <strong>#14171A</strong> text, <strong>#F7F8FA</strong> background.<br>
+      Mood: calm and technical — precise, uncluttered, built for someone evaluating the work, not the wrapper.
+    </div>
+  </section>
+
+  <footer>KIA · Portfolio Identity Kit · aifluency.flyrank.ai — Week 3</footer>
+</div>
+</body>
+</html>
