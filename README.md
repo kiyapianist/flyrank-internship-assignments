@@ -12,6 +12,7 @@ A public index for my Flyrank internship assignments.
 | 4 | Node.js and Express Presentation | [node-express-intro-presentation](https://github.com/kiyapianist/node-express-intro-presentation) | Slide deck introducing backend development with Node.js and Express. |
 | 5 | A7 Report Jobs | [a7-report-jobs](https://github.com/kiyapianist/a7-report-jobs) | SQL aggregation, background report jobs, PDF artifact storage, and download links. |
 | 6 | A8 Ethical Scraper | [a8-ethical-scraper](https://github.com/kiyapianist/a8-ethical-scraper) | Practice-site scraper with robots check, rate limiting, clear User-Agent, and structured JSON/CSV outputs. |
+| 7 | A9 Auth Service | [a9-auth-service](https://github.com/kiyapianist/a9-auth-service) | Register/login auth with hashed passwords, bearer tokens, protected routes, and honest 401/403 responses. |
 
 ## Identity Kit
 
