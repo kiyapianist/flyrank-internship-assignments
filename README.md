@@ -14,6 +14,7 @@ A public index for my Flyrank internship assignments.
 | 6 | A8 Ethical Scraper | [a8-ethical-scraper](https://github.com/kiyapianist/a8-ethical-scraper) | Practice-site scraper with robots check, rate limiting, clear User-Agent, and structured JSON/CSV outputs. |
 | 7 | A9 Auth Service | [a9-auth-service](https://github.com/kiyapianist/a9-auth-service) | Register/login auth with hashed passwords, bearer tokens, protected routes, and honest 401/403 responses. |
 | 8 | A10 Background AI Jobs | [a10-background-ai-jobs](https://github.com/kiyapianist/a10-background-ai-jobs) | Slow AI-style summaries moved into a worker with 202 acceptance, status polling, idempotency, retries, alerts, and proof screenshot. |
+| 9 | W3 A2 SQLite CRUD API | [w3-sqlite-crud-api](https://github.com/kiyapianist/w3-sqlite-crud-api) | Persistent task CRUD API with parameterized SQLite queries, automated tests, and a browser database viewer. |
 
 ## Identity Kit
 
